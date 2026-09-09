@@ -109,3 +109,9 @@ footer{
     height: 350px;
 >>>>>>> 36186fed798dc736559185600e300e624169d5be
 }
+.Contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
