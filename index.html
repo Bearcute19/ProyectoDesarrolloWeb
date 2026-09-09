@@ -2,25 +2,43 @@
 <html>
     <head>
         <title>Life Tracker</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <header>
-            <img src="logo-life.png" alt="logo-life">
-            <button type=" submit">
-                Iniciar sesión
-            </button>
-            <button type=" submit">
-                Registrarse
-            </button>
+    <body >
+        <header class="encabezado">
+            <img src="logo-life.png" alt="logo-life" class="logo-img">
+        <h id="eslogan">COMPARTIENDO MOMENTOS</h>
+        <div class="botones">    
+            <button>Iniciar sesión</button>
+            <button> Registrarse</button>
+        </div>
         </header>
-        <nav>
+        <nav id="menu">
             <ul>
                 <li>Inicio</li>
                 <li>Rastreo</li>
+                <li>Soporte</li>
                 <li>Nosotros</li>
-                <li>Contacto</li>
             </ul>
         </nav>
+        <main>
+            <section id="acerca">
+                <h1 class="titulo-1">Acerca de nosotros</h1>
+                <p class="text">Esta página está diseñada para ayudarte a ubicar tu pedido.</br>
+                Si tiene dudas no dude en comunicarse con soporte comercial.</p>                
+            </section>
+            <aside>
+                <img src="empresas-courier-hacer-envios.jpg" alt="servicio-courier" id="servicio-courier">
+            </aside>
+
+        </main>
+        <footer class="pie-de-pagina">
+                <a>🎧  Telefono: 999 888 777</a></br>
+                <a>✉  Email: contacto.@gmail.com</a></br>
+                <a>📍  Dirección: ...</a>
+        </footer>
+
     </body>
 </html>

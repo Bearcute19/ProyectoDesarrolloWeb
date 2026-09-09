@@ -1,3 +1,84 @@
-img {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.logo-img {
     filter: brightness(0);
+    width: 120px;
+} 
+#menu ul {
+    display: flex;          
+    justify-content: center;
+    list-style: none;       
+    gap: 200px;              
+    margin: 0;
+    padding: 0;    
+}
+.botones {
+    display: flex;
+    gap: 10px;
+}
+.encabezado {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+#menu li{
+    cursor: pointer;
+    transition: transform 0.3s ease, text-decoration 0.3s ease;
+}
+#menu li:hover {
+    text-decoration: underline;
+    transform: scale(1.15);
+    color: #44AFAB;
+}
+#eslogan{
+    font-size: 50px;
+}
+main {
+    flex:1;
+}
+footer{
+    background-color: rgb(192, 191, 191);
+    padding: 20px;
+    margin-top: auto;
+}
+#acerca{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 750px;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+}
+.titulo-1 {
+    margin-bottom: 12px;
+    color: #222222;
+}
+
+.text {
+    color: #555555;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+#servicio-courier{
+    margin-left: 1000px;
+    margin-top: -250px;
+    border-radius: 15px;
+    height: 350px;
 }
