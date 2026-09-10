@@ -115,3 +115,19 @@ footer{
     gap: 60px;
     text-align: center;
 }
+.Tabla {
+   margin: 40px auto;
+   border-collapse: collapse;
+   width: 85%;
+   background-color: rgb(247, 239, 239);
+}
+.Tabla th,
+.Tabla td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+.Tabla th {
+   background-color: rgb(139, 135, 135);
+}   
